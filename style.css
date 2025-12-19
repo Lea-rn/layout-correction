@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+/* * ===> all elements ...... */
+*{
+    color: white;
+    text-align: center;
+}
+
+header , footer {
+    background-color: aqua;
+
+    height: 50px;
+
+}
+
+.cover {
+    background-color: greenyellow;
+
+    height: 400px;
+
+}
+
+main {
+
+    height: 400px;
+    width: 70%;
+}
+
+aside {
+   background-color: brown;
+    height: 400px;
+    width: 30%;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+height: 200px;
+background-color: red;
+
+}
+.banner{
+    height: 100px;
+    background-color: yellow;
+   
+
+}
+.pub-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+ background-color: blueviolet;
+
+ height: 100px;
+ width: 20%;
+}
+
+.pub {
+ background-color: rgb(15, 8, 152);
+
+ height: 100px;
+ width: 80%;
+}
+
